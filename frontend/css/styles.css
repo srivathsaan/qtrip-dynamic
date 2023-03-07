@@ -18,6 +18,7 @@ input:focus {
 a {
   color: inherit !important;
   text-decoration: none !important;
+  height:100%;
 }
 footer {
   background: #f1f1f1;
@@ -260,4 +261,46 @@ input[type="number"] {
   border-radius: 4px;
   padding: 16px;
   margin-bottom: 30px;
+}
+
+.tile {
+  /* TODO: MODULE_CARDS */
+  /* 1. Fill in the required properties. */  
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  
+
+}
+
+.tile img {
+  /* TODO: MODULE_CARDS */
+  /* 1. Fill in the required properties. */
+  border-radius:1rem;
+  z-index: 50;
+
+  
+  
+  
+}
+.tile img:hover {
+  /* TODO: MODULE_CARDS */
+  /* 1. Fill in the required properties. */
+  filter: brightness(0.5);
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+  
+}
+
+/* Hint: Notice the position:absolute and z-index properties. */
+/* Think about how those in relation to the existing "tile" classes. */
+.tile-text {
+  position: absolute;
+  z-index: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 500;
+  bottom: 0px;
+  width: 100%;
 }
