@@ -37,7 +37,7 @@ function addCityToDOM(id, city, description, image) {
   // 1. Populate the City details and insert those details into the DOM
   let parent = document.getElementById("data");
   let child = document.createElement("div");
-  child.className =" col-6 col-md-4 col-lg-3 mb-4 ";
+  child.className =" col-6 col-lg-3 mb-4 ";
   child.innerHTML =`<div class="tile">
   <a href="pages/adventures/?city=${id}" id="${id}">
     
