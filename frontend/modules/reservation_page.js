@@ -94,7 +94,7 @@ function addReservationToTable(reservations) {
       <td>${dat.toLocaleDateString("en-IN")}</td>
       <td>${reservations[i].price}</td>
       <td>${text}</td>
-      <td><button id=${reservations[i].id} class="reservation-visit-button"><a style="display:hidden" href="/detail/?adventure=${ref}"><a  href="${config.backendEndpoint}/frontend/pages/adventures/detail/?adventure=${ref}">Visit Adventure</a></a></button></td>
+      <td><button id=${reservations[i].id} class="reservation-visit-button"><a style="display:hidden" href="/detail/?adventure=${ref}"><a  href="./../detail/?adventure=${ref}">Visit Adventure</a></a></button></td>
       
       
     `;
